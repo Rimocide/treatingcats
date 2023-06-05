@@ -1,15 +1,21 @@
-p{
-    color: #5EBEC4
+p, 
+li{
+    color: #F92C85;
 }
 
-li{
-    color: #5EBEC4
-}
+
 
 * {
-    background-color: #FDF5DF;
+    background-image: url(background.png);
 }
 
 h1{
-    color: #F92C85;
+    
+    color: #5EBEC4;
+}
+
+img {
+display: block;
+margin-left: auto;
+margin-right: auto;
 }
