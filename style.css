@@ -5,7 +5,7 @@ li{
 }
 
 
-ul, ol{
+ul{
     background: rgba(0,0,0,0);
 }
 * {
@@ -23,3 +23,33 @@ display: block;
 margin-left: auto;
 margin-right: auto;
 }
+div{
+    text-align:center;
+}
+
+.card {
+    margin: 20px 30%;
+    border: 5px solid #5EBEC4;
+    padding: 10px;
+    background-image: none;
+    background-color: white;
+}
+a {
+    display: inline-block;
+    background-color: #F92C85;
+    color: white;
+    padding: 10px;
+    margin: 10px auto;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align:center;
+    background-image: none;
+  }
+
+a:hover {
+    background-color: #eb076a;
+    cursor: pointer;
+  }
+a:active {
+    background-color: #d3065f;
+  }
